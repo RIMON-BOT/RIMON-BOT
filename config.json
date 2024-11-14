@@ -12,16 +12,20 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "𝗥𝗜𝗠𝗢𝗡 卝 𝗔𝗜࿐",
+	"prefix": "/",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [
+		"100053522913961"
+	],
 	"whiteListMode": {
 		"enable": false,
-		"whiteListIds": [],
+		"whiteListIds": [
+			"100053522913961"
+		],
 		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
 	},
 	"whiteListModeThread": {
@@ -41,14 +45,14 @@
 	"credentials": {
 		"gmailAccount": {
 			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
+			"clientId": "249889492292-qff3skitvnud3hle736ugm3tt53fh1sg.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04l_q7zGN41-ECgYIARAAGAQSNwF-L9Ir-t_MXlcP231dJo3boIXhkCZj0wdxFRo6xNCEc36kzQhJ3uJwhmTeAVHizb1XofhvSHw",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
+			"siteKey": "6LeYA1gpAAAAALcbHRIVGcL69QwgbXIbBZpvlJ3q",
+			"secretKey": "6LeYA1gpAAAAAI13alckf64lV0MfuEQf3EObX4ye"
 		}
 	},
 	"dashBoard": {
@@ -71,8 +75,8 @@
 	},
 	"autoUptime": {
 		"enable": false,
-		"timeInterval": 180,
-		"url": "",
+		"timeInterval": 500,
+		"url": "https://uptime.botrandom30.repl.co",
 		"notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
 	},
 	"autoLoadScripts": {
